@@ -247,6 +247,7 @@ input[class="search-key"] {
   padding: 1rem;
   border-radius: 0.5rem;
   overflow: auto;
+  max-height: 50vh;
 }
 
 .announcement-item:not(:last-child) {
@@ -257,6 +258,41 @@ input[class="search-key"] {
 .announcement-title {
   padding-top: 0.5rem;
 }
+
+.trending-item-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.trending-item {
+  display: grid;
+  grid-template: 1fr 1fr / 48px 1fr;
+  gap: 0 0.5rem;
+  align-items: center;
+}
+
+.trending-item:not(:last-child) {
+  padding-bottom: 1rem;
+}
+
+.trending-user-avatar {
+  padding: 24px;
+  background-color: aqua;
+  border-radius: 48px;
+  grid-row: span 2;
+}
+
+.trending-user-handle {
+  font-weight: 600;
+  grid-column: 2;
+}
+
+.trending-topic {
+  grid-column: 2;
+  grid-row: 2;
+}
+
 
 
 

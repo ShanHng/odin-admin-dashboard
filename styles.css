@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --blue-1: rgb(55, 55, 189);
+}
+
+.logo-placeholder {
+  display: inline-block;
+  background-color: turquoise;
+  padding: 20px;
+  margin-right: 8px;
+}
+
+.icon-placeholder {
+  display: inline-block;
+  background-color: turquoise;
+  padding: 12px;
+  margin-right: 8px;
+}
+
+.sidebar {
+    background-color: var(--blue-1);
+    height: 100vh;
+    width: 20vw;
+    color: white;
+    padding: 1.5rem;
+}
+
+.logo {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar > ul {
+    padding: 0.3rem;
+    list-style-type: none;
+}
+
+.sidebar-menu-upper {
+    margin-bottom: 16px;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+
+

@@ -28,25 +28,39 @@
       </ul>
     </div>
 
-    <div class="main-container">
-      <div class="header">
-        <div class="upper-header">
-          <div class="search-bar"></div>
-
-          <div class="user-profile"></div>
+    <div class="header">
+      <div class="upper-header">
+        <div class="search-bar">
+          <span class="search-icon"></span>
+          <input type="text" class="search-key" placeholder="Enter something" />
         </div>
-
-        <div class="lower-header">
-          <div class="user-welcome"></div>
-          <ul class="actions"></ul>
+        <div class="user-profile">
+          <span class="notification-icon"></span>
+          <span class="user-avatar"></span>
+          John Doe
         </div>
       </div>
 
-      <div class="content">
-        <div class="projects"></div>
-        <div class="announcements"></div>
-        <div class="trending"></div>
+      <div class="lower-header">
+        <div class="user-welcome">
+          <span class="user-avatar-large"></span>
+          <div class="user-welcome-text">
+            <div class="greeting">Hi there,</div>
+            <div class="username-display-large">John Doe (@johndoe)</div>
+          </div>
+        </div>
+        <ul class="action-list">
+          <li><button class="action">New</button></li>
+          <li><button class="action">Upload</button></li>
+          <li><button class="action">Share</button></li>
+        </ul>
       </div>
+    </div>
+
+    <div class="main-content">
+      <div class="projects"></div>
+      <div class="announcements"></div>
+      <div class="trending"></div>
     </div>
   </body>
 </html>

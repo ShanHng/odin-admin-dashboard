@@ -73,7 +73,7 @@ body {
   grid-row: 1;
   display: flex;
   justify-content: space-around;
-  gap: 10%;
+  gap: 20vw;
 }
 
 input[class="search-key"] {
@@ -99,7 +99,7 @@ input[class="search-key"] {
   flex-grow: 2;
 }
 
-.user-profile {
+.sidebar-upper-end {
   flex-grow: 1;
   display: flex;
   align-items: center;
